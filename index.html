@@ -8,13 +8,13 @@
   <body>
     <div class="container">
       <h2>Todo App</h2>
-      <ul>
+      <ul id="sortable">
         <li class="li">fresh fish <span id="close">x</span></li>
-        <li class="li">pine nuts <span id="close">x</span></li>
+        <li id="one" class="li">pine nuts <span id="close">x</span></li>
         <li class="li">honey <span id="close">x</span></li>
         <li class="li">vinegar <span id="close">x</span></li>
       </ul>
-       <form>
+       <form id="new">
          <div class="flex">
            <input type="text" name="item"  placeholder="new item" autocomplete="off" class="f">  <button class="f1" type="submit" name="button">Add Item</button>
          </div>
@@ -23,6 +23,8 @@
 
        </div>
     </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="scripts/index.js" charset="utf-8"></script>
   </body>
 </html>

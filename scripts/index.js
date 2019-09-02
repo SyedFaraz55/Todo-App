@@ -2,11 +2,7 @@ document.addEventListener("DOMContentLoaded",function(){
   var btn = document.querySelector('button');
   btn.addEventListener('click',AddItem);
   load();
-  checkItems();
 });
-
-
-
 
 function AddItem(event){
 
@@ -30,7 +26,6 @@ function AddItem(event){
     alert('Please Enter an item ');
   }
   load();
-  checkItems();
 }
 
 function load() {
@@ -41,9 +36,5 @@ function load() {
     });
   }
 }
-
-function checkItems(){
-  var li = document.querySelectorAll('li');
-  const items = li.length;
-  var div = document.getElementById('count').innerHTML = `Total Tasks: ${items}`;
-}
+$('#sortable').sortable();
+$('#sortable').disableSelection();

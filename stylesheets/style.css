@@ -6,11 +6,12 @@
   fontFamily: "Dosis", sans-serif;
 }
 body {
-  background: #DAD5DB;
+  background: #e7eeef;
 }
 .container {
   width: 60%;
-  margin:20px auto;
+  margin:30px auto;
+
 }
 .flex {
   display: flex;
@@ -43,6 +44,7 @@ li span {
 li:hover {
   background:lightgrey;
   border-left: 4px solid coral;
+  cursor: pointer;
 }
 li:hover span{
   visibility: visible;

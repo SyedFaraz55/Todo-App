@@ -1,0 +1,23 @@
+$(document).ready(function(){})
+$(function(){})
+.text()
+.html()
+.replace()
+.replaceWith()
+.append()
+.prepend()
+.before()
+.after()
+.attr()
+.removeAttr()
+.css()
+.each(function(){ => for each selected elemet
+  $(this)->refers to each element
+})
+=====
+zeptos.js
+dojo.js
+yui.js
+chats.js
+441-page
+1px solid #cdd6df
